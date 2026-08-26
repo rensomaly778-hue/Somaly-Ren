@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Learning Website</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">My<span>Learn</span></div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#lessons">Lessons</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+
+            <a href="#lessons" class="nav-btn">Start Learning</a>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <p class="small-title">WELCOME TO MY LEARNING WEBSITE</p>
+
+            <h2>
+                Hello, I'm Somaly Ren.<br>
+                <span>IT Student</span>
+            </h2>
+
+            <p class="hero-description">
+                Welcome to my personal portfolio website. I am interested in technology, web design, and programming.
+                Learn Web Design, English, UX/UI and Algorithm
+                with simple lessons, examples and practice.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#lessons" class="btn primary">Explore Lessons</a>
+                <a href="#skills" class="btn secondary">My Skills</a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="./img/image.png" alt="" width="100">
+        </div>
+    </section>
+
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+        <div class="section-title">
+            <p>MY SKILLS</p>
+            <h2>What I am learning</h2>
+        </div>
+
+        <div class="skills-container">
+
+            <div class="skill-card web">
+                <div class="icon">💻</div>
+                <h3>Web Design</h3>
+                <p>
+                    Learn HTML, CSS, Flexbox, responsive design
+                    and how to create beautiful websites.
+                </p>
+                <a href="#web-design">Learn More →</a>
+            </div>
+
+            <div class="skill-card english">
+                <div class="icon">🇬🇧</div>
+                <h3>English</h3>
+                <p>
+                    Improve grammar, vocabulary, speaking and
+                    communication skills.
+                </p>
+                <a href="#english">Learn More →</a>
+            </div>
+
+            <div class="skill-card ux">
+                <div class="icon">🎨</div>
+                <h3>UX/UI</h3>
+                <p>
+                    Learn user experience, user interface,
+                    wireframes and design principles.
+                </p>
+                <a href="#ux-ui">Learn More →</a>
+            </div>
+
+            <div class="skill-card algorithm">
+                <div class="icon">🧠</div>
+                <h3>Algorithm</h3>
+                <p>
+                    Learn problem solving, logic, conditions,
+                    loops and basic algorithms.
+                </p>
+                <a href="#algorithm">Learn More →</a>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Lessons -->
+    <section id="lessons" class="lessons-section">
+
+        <div class="section-title">
+            <p>MY LESSONS</p>
+            <h2>Learn Step by Step</h2>
+        </div>
+
+
+        <!-- WEB DESIGN -->
+        <div id="web-design" class="lesson">
+
+            <div class="lesson-image">
+                <img
+                    src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80"
+                    alt="Web design coding">
+            </div>
+
+            <div class="lesson-content">
+                <span class="lesson-number">01</span>
+                <h2>Web Design</h2>
+
+                <h3>Lesson: HTML & CSS Basics</h3>
+
+                <p>
+                    HTML is used to create the structure of a website.
+                    CSS is used to make the website beautiful.
+                </p>
+
+                <h4>Example:</h4>
+
+                <pre><code>&lt;h1&gt;Hello World&lt;/h1&gt;
+
+&lt;p&gt;Welcome to my website.&lt;/p&gt;
+
+&lt;button&gt;Learn More&lt;/button&gt;</code></pre>
+
+                <h4>CSS Example:</h4>
+
+                <pre><code>h1 {
+    color: blue;
+    font-size: 40px;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 8px;
+}</code></pre>
+
+                <a href="#" class="learn-btn">Start Web Design →</a>
+            </div>
+
+        </div>
+
+
+        <!-- ENGLISH -->
+        <div id="english" class="lesson reverse">
+
+            <div class="lesson-image">
+                <img
+                    src="https://images.unsplash.com/photo-1546410531-bb4caa6b424d?auto=format&fit=crop&w=900&q=80"
+                    alt="English learning">
+            </div>
+
+            <div class="lesson-content">
+                <span class="lesson-number">02</span>
+                <h2>English</h2>
+
+                <h3>Lesson: Passive Voice</h3>
+
+                <p>
+                    We use passive voice when the action is more
+                    important than the person who does the action.
+                </p>
+
+                <h4>Structure:</h4>
+
+                <div class="formula">
+                    Subject + be + Past Participle (V3)
+                </div>
+
+                <h4>Examples:</h4>
+
+                <div class="example-box">
+                    <p><strong>Active:</strong> IT workers make websites.</p>
+                    <p><strong>Passive:</strong> Websites are made by IT workers.</p>
+                </div>
+
+                <div class="example-box">
+                    <p><strong>Active:</strong> People use computers.</p>
+                    <p><strong>Passive:</strong> Computers are used by people.</p>
+                </div>
+
+                <div class="example-box">
+                    <p><strong>Active:</strong> They build websites.</p>
+                    <p><strong>Passive:</strong> Websites are built by them.</p>
+                </div>
+
+                <a href="#" class="learn-btn">Start English →</a>
+            </div>
+
+        </div>
+
+
+        <!-- UX/UI -->
+        <div id="ux-ui" class="lesson">
+
+            <div class="lesson-image">
+                <img
+                    src="https://images.unsplash.com/photo-1559028012-481c04fa702d?auto=format&fit=crop&w=900&q=80"
+                    alt="UX UI design">
+            </div>
+
+            <div class="lesson-content">
+                <span class="lesson-number">03</span>
+                <h2>UX / UI</h2>
+
+                <h3>Lesson: User Experience & Interface</h3>
+
+                <p>
+                    UX means User Experience. It focuses on how easy
+                    and useful a product is for users.
+                </p>
+
+                <p>
+                    UI means User Interface. It focuses on the visual
+                    design of the application or website.
+                </p>
+
+                <h4>UX Example:</h4>
+
+                <ul class="lesson-list">
+                    <li>Easy navigation</li>
+                    <li>Simple user flow</li>
+                    <li>Easy-to-use buttons</li>
+                    <li>Fast and clear interaction</li>
+                </ul>
+
+                <h4>UI Example:</h4>
+
+                <ul class="lesson-list">
+                    <li>Colors</li>
+                    <li>Typography</li>
+                    <li>Icons</li>
+                    <li>Buttons</li>
+                    <li>Layout</li>
+                </ul>
+
+                <a href="#" class="learn-btn">Start UX/UI →</a>
+            </div>
+
+        </div>
+
+
+        <!-- ALGORITHM -->
+        <div id="algorithm" class="lesson reverse">
+
+            <div class="lesson-image">
+                <img
+                    src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=900&q=80"
+                    alt="Programming algorithm">
+            </div>
+
+            <div class="lesson-content">
+                <span class="lesson-number">04</span>
+                <h2>Algorithm</h2>
+
+                <h3>Lesson: If / Else Condition</h3>
+
+                <p>
+                    An algorithm is a step-by-step method used to
+                    solve a problem.
+                </p>
+
+                <h4>Example:</h4>
+
+                <p>
+                    We want to check if a student passes or fails.
+                </p>
+
+                <pre><code>score = 75
+
+if score >= 50:
+    print("Pass")
+else:
+    print("Fail")</code></pre>
+
+                <h4>Result:</h4>
+
+                <div class="result">
+                    Pass
+                </div>
+
+                <h4>Algorithm Steps:</h4>
+
+                <ol class="lesson-list">
+                    <li>Input the student's score.</li>
+                    <li>Check if score is 50 or higher.</li>
+                    <li>If yes → Pass.</li>
+                    <li>If no → Fail.</li>
+                </ol>
+
+                <a href="#" class="learn-btn">Start Algorithm →</a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div>
+            <p class="small-title">ABOUT ME</p>
+
+            <h2>
+                Keep Learning.<br>
+                Keep Growing.
+            </h2>
+
+            <p>
+                I am an IT student who is interested in technology,
+                web design, UX/UI, English and programming.
+                This website helps me organize my lessons and
+                practice my skills.
+            </p>
+        </div>
+
+        <div class="about-skills">
+            <div>
+                <strong>HTML & CSS</strong>
+                <span>Web Design</span>
+            </div>
+
+            <div>
+                <strong>UX / UI</strong>
+                <span>Design</span>
+            </div>
+
+            <div>
+                <strong>English</strong>
+                <span>Communication</span>
+            </div>
+
+            <div>
+                <strong>Algorithm</strong>
+                <span>Problem Solving</span>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <h2>My<span>Learn</span></h2>
+        <p>Learn • Practice • Improve • Create</p>
+        <p class="copyright">
+            © 2026 MyLearn. All Rights Reserved.
+        </p>
+    </footer>
+
+</body>
+</html>
